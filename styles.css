@@ -1,0 +1,88 @@
+* {
+    --ajcolor: green;
+    --textcolor: black;
+    --compcolor: rgba(255, 255, 255, 0.25);
+}
+
+body {
+    background-image: url("img/Snapchat-2054605855.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: var(--textcolor);
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    background-color: var(--compcolor);
+    border: 2px solid var(--textcolor);
+    border-radius: 15px;
+    box-shadow: 1px;
+    width: 90%;
+    /* max-width: 1800px; */
+
+    text-align: center;
+    transition: 0.5s;
+}
+
+.content :hover {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.navbar {
+    position: relative;
+    /* margin: auto; */
+    top: 20px;
+    left: 5%;
+    background-color: var(--compcolor);
+    border: 2px solid var(--textcolor);
+    border-radius: 15px;
+    width: 15%;
+    min-width: 150px;
+    height: 400px;
+}
+
+.navbar p {
+    position: relative;
+    text-align: center;
+    height: 75px;
+    border: 2px solid var(--compcolor);
+    background-color: var(--compcolor);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.navbar h3 {
+    text-align: center;
+}
+
+.main {
+    position: absolute;
+    left: calc(15% + 150px);
+    right: 5%;
+    top: 175px;
+    /* bottom: 75px; */
+    background-color: var(--compcolor);
+    border: 2px solid var(--textcolor);
+    border-radius: 15px;
+    /* box-shadow: 1px; */
+    /* width: 65%; */
+
+    text-align: center;
+    transition: 0.5s;   
+}
+
+.main img {
+    position: relative;
+    width: 20%;
+    right: 0px;
+    border: 2px solid var(--textcolor);
+    border-radius: 10px;
+}
